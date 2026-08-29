@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Map</title>
     <style rel="stylesheet" href="app.component.css"></style>
-    <script src="/java.js"></script>
+    
 </head>
 <body>
-
+<script src="/java.js"></script>
   <div class="container">
     <div class="map">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 666" aria-label="World Map">
@@ -522,15 +522,13 @@
             name="Zimbabwe" id="zw" />
     </svg> 
     </div>
-    <div class="sidebar">
-       <h1>{{name}}</h1>
-          <ul>
-            <li>{{capital}}</li>
-            <li>{{region}}</li>
-            <li>{{income}}</li>
-            <li>{{population}}</li>
-            <li>{{currency}}</li>
-          </ul>
+    <div id="sidebar">
+      <h1 id="name">Name: </h1>
+      <h1 id="captital">Capital: </h1>
+      <h1 id="region">Region: </h1>
+      <h1 id="income">Income: </h1>
+      <h1 id="population">Population: </h1>
+      <h1 id="currecny">Currency: </h1>
     </div>
   </div>
 
