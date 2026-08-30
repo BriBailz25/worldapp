@@ -22,3 +22,10 @@ body {
     font-size: 16px;
     color: #7e3eb0;
 }
+path {
+    cursor: pointer;
+}
+
+path:hover {
+    fill: #e0d9e2;
+}

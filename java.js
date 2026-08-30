@@ -1,9 +1,7 @@
-const map = document.querySelector("svg");
-const country = document.querySelectorAll("path");
-const sideBar = document.querySelector(".sidebar");
-const capital = document.querySelectorAll("path[capital='']");
-const region = document.querySelectorAll("path[region='']");
-const income = document.querySelectorAll("path[income='']");
-const population = document.querySelectorAll("path[population='']");
-const currency = document.querySelectorAll("path[currency='']");
+const countryDetails = document.getElementById("country-details");
 
+const countryDetailsClicked = async (e) => {
+    const countryId = e.target.id;
+    console.log(countryId);
+}
+    countryDetails.addEventListener("click", countryDetailsClicked);
