@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -15,5 +16,9 @@ export class AppComponent {
   income: string = 'High income';
   population: string = '146,000,000';
   currency: string = 'Russian Ruble';
+
+  getCountry(event:any) {
+    console.log(event.target.id);
+  }
 
 }
