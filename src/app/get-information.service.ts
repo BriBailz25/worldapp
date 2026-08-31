@@ -5,5 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class GetInformationService {
 
-  constructor() { }
+  constructor (private http: HttpClient) { }
+
+
 }
